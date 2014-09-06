@@ -4,7 +4,7 @@
 /**
  * Created by User on 04.09.2014.
  */
-var log = require("logger")(module);
+var log = require("../logger")(module);
 var db = require('../db');
 function User(name){
     this.name = name;

@@ -1,4 +1,4 @@
-var log = require('logger')(module);
+var log = require('./logger')(module);
 var db = require("./db");
 db.connect();
 var User = require('./user/index');
